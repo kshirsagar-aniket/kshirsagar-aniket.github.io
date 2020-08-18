@@ -1,0 +1,115 @@
+body {
+	background: #f0fff0;
+	font-family: 'Nunito', sans-serif;
+}
+
+p {
+	color: crimson;
+	font-weight: 120;
+	font-size: 1.125rem;
+	line-height: 2;
+}
+
+#mainNavbar {
+	font-size: 1.5rem;
+	font-weight: 400;
+}
+
+#mainNavbar .nav-link {
+	color: white;
+}
+
+#mainNavbar .nav-link:hover {
+	color: black;
+}
+
+#mainNavbar .navbar-brand {
+	color: black;
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+
+h1 {
+	font-weight: 100;
+	font-size: 4rem;
+}
+
+.navbar.scrolled {
+	background: #e780a4;
+	transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+	h1 {
+		font-weight: 100;
+		font-size: 3rem;
+	}
+	h3 {
+		font-size: 2rem;
+	}
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+.slider-1 {
+	height: 65vh;
+	min-height: 350px;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+header.masthead {
+	padding-top: 8.5rem;
+	padding-bottom: 5.5rem;
+	text-align: center;
+	color: black;
+	background: #f5d9d5;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-size: cover;
+}
+
+#Ice-cream-cone {
+	background-color: rgb(235, 235, 235);
+}
+
+.Product-Slider img {
+	border: 4px solid #d3d3d3;
+}
+.about {
+	background: #f5d9d5;
+	backface-visibility: visible;
+}
+
+#flavours {
+	background: #fbebfd;
+}
+
+#flavour img {
+	border: 4px solid #d3d3d3;
+	width: 13rem;
+}
+
+#Shop {
+	background: rgb(250, 255, 230);
+}
+
+.products img {
+	border: 4px solid #d3d3d3;
+	width: 15rem;
+}
+#products {
+	background: #f5dad6;
+}
+.ice-creams img {
+	width: 15rem;
+}
+footer {
+	background: lightgrey;
+}
